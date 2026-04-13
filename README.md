@@ -12,3 +12,9 @@ git push -u origin main (bem-sucedido)
 
 Para rodar, use: 
 uv run calculadora
+
+mudancas foram realizadas no pyproject.toml para suportar o padrao src-layout, sendo ela:
+[tool.uv]
+package = true
+
+como sugerido pela documentacao do Astral UV. Assim, o uv trata meu diretorio como pacote instalavel e permite que o project.scripts funcione como esperado, e a execucao possa acontecer chamando o nome "calculadora" ao inves de inserir todo o diretorio para o programa.
