@@ -1,5 +1,5 @@
 uv init projeto_calculadora
-cd projeto_calculadorag
+cd projeto_calculadora
 new-item .gitignore
 uv add numpy
 uv sync
